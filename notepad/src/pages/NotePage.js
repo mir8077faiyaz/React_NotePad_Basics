@@ -64,7 +64,7 @@ const NotePage = () => {
     }else if(id==='new' && note!==null){
       createNote()
     }
-    
+    navigate('/');
     // const history=useHistory()
     // history.push('/')
   }
