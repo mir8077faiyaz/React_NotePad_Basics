@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom'
 // }
 let getDate=(note)=>{
   console.log(note.body)
-  return new Date(note.updated).toLocaleDateString()
+  return new Date(note.updated).toLocaleTimeString()+ " "+new Date(note.updated).toLocaleDateString()
 }
 let getTitle= (note)=>{
   const title=note.body.split('\n')[0]

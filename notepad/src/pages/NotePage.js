@@ -35,7 +35,8 @@ const NotePage = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ ...note, 'updated': new Date() }),
+
+      body: JSON.stringify({ ...note, 'updated': new Date().getHours }),
     })
   }
   const deleteNote = async () => {

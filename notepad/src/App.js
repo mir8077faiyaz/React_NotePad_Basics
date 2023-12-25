@@ -6,7 +6,7 @@ import NotesList from './pages/NotesList'
 import NotePage from './pages/NotePage'
 function App() {
   return (
-    <div className="container dark">
+    <div className="container ">
       <Router>
         <div className="app">
           <Header/>
